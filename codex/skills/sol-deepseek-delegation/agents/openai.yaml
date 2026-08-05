@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sol + DeepSeek Delegation"
+  short_description: "Sol reviews while DeepSeek executes bounded coding tasks"
+  default_prompt: "Use $sol-deepseek-delegation to delegate this implementation to a DeepSeek subagent and review the result as the Sol main agent."
