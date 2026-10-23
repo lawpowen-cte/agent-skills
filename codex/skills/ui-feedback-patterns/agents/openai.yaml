@@ -1,0 +1,3 @@
+interface:
+  display_name: "UI 提示、浮层与引导选型"
+  short_description: "选择提示、确认、浮层与引导组件，检查输入保护、撤销、焦点和无障碍交互"

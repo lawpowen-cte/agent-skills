@@ -10,7 +10,7 @@
 $skill-installer install https://github.com/lawpowen/agent-skills/tree/main/codex/skills/sol-deepseek-delegation
 ```
 
-安装后如未立即出现，请重新启动 Codex。
+安装完成后，技能会在下一轮对话可用；若列表仍未刷新，再重启 Codex。
 
 ## 手动安装
 
@@ -31,3 +31,15 @@ $skill-installer install https://github.com/lawpowen/agent-skills/tree/main/code
 ## 已收录 Skills
 
 - [`sol-deepseek-delegation`](skills/sol-deepseek-delegation/)
+
+## UI 规范与配套安装包
+
+完整清单、另一台电脑可直接复制的安装指令、Python 依赖和验证方法见 [UI 安装包](bundles/ui-design.md)。
+
+- [`ui-design-standards`](skills/ui-design-standards/)
+- [`ui-ux-pro-max`](skills/ui-ux-pro-max/)
+- [`ui-feedback-patterns`](skills/ui-feedback-patterns/)
+- [`ui-chat-desktop-interactions`](skills/ui-chat-desktop-interactions/)
+- [`frontend-design`](skills/frontend-design/)
+
+许可证与来源见 [第三方说明](THIRD-PARTY-NOTICES.md)。

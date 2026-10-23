@@ -1,0 +1,34 @@
+{
+  "name": "ui-design",
+  "snapshot_date": "2026-10-24",
+  "repository": "lawpowen/agent-skills",
+  "skills": [
+    {
+      "name": "ui-design-standards",
+      "path": "codex/skills/ui-design-standards"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "path": "codex/skills/ui-ux-pro-max"
+    },
+    {
+      "name": "ui-feedback-patterns",
+      "path": "codex/skills/ui-feedback-patterns"
+    },
+    {
+      "name": "ui-chat-desktop-interactions",
+      "path": "codex/skills/ui-chat-desktop-interactions"
+    },
+    {
+      "name": "frontend-design",
+      "path": "codex/skills/frontend-design"
+    }
+  ],
+  "entrypoint": "ui-design-standards",
+  "python": "3.10+ for ui-ux-pro-max search",
+  "optional_integrations": [
+    "Sleek",
+    "Figma",
+    "Sites"
+  ]
+}

@@ -10,7 +10,12 @@ Reusable AI agent skills, grouped by agent platform. Each skill is kept as an in
 agent-skills/
 ├── codex/
 │   └── skills/
-│       └── sol-deepseek-delegation/
+│       ├── sol-deepseek-delegation/
+│       ├── ui-design-standards/
+│       ├── ui-ux-pro-max/
+│       ├── ui-feedback-patterns/
+│       ├── ui-chat-desktop-interactions/
+│       └── frontend-design/
 ├── claude/       # 需要时再添加
 └── gemini/       # 需要时再添加
 ```
@@ -20,6 +25,8 @@ agent-skills/
 ### Codex
 
 - [`sol-deepseek-delegation`](codex/skills/sol-deepseek-delegation/): 由 GPT Sol 主 Agent 负责规划和验收，DeepSeek 高推理子 Agent 负责执行软件任务；包含 Windows 配置检查和任务文件回退流程。
+
+- [UI 规范与配套 Skills 安装包](codex/bundles/ui-design.md)：在另一台 Codex 安装完整的 UI 导航、组件选型、视觉参考、聊天桌面交互与设计检索能力。
 
 安装和使用方法见 [`codex/README.md`](codex/README.md)。
 
@@ -33,4 +40,4 @@ agent-skills/
 
 ## License
 
-本仓库采用 [MIT License](LICENSE)。各 Skill 如需不同许可证，会在其目录内单独说明。
+本仓库采用 [MIT License](LICENSE)。第三方目录保留其原有许可证；详见 [第三方说明](codex/THIRD-PARTY-NOTICES.md)。

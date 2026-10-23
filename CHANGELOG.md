@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-24
+
+### Package the UI workflow for another Codex installation
+
+- Added the UI standards/router, feedback/component patterns, chat/desktop interactions, and their verified visual/motion and rule references.
+- Added the locally maintained UI/UX Pro Max search snapshot and frontend-design companion, retaining third-party licenses and catalog provenance.
+- Replaced Claude-specific search example paths with the resolved Codex skill directory in the packaged UI/UX skill.
+- Added the five-skill bundle manifest, cross-computer installation prompt, runtime requirements, and optional integration boundaries.
+- Excluded bytecode caches and machine-specific configuration or credentials.
+
+
 ## 2026-08-05
 
 ### Initialize the multi-platform Agent Skills catalog
